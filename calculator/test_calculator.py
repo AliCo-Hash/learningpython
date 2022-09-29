@@ -9,6 +9,7 @@ class TestCalc(unittest.TestCase):
 
   def test_subtract(self):
     self.assertEqual(Calculator.subtract(20, 5), 15)
+    self.assertEqual(Calculator.subtract(12.5, -10.5), 23)
 
 
 if __name__ == '__main__':
