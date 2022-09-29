@@ -23,6 +23,7 @@ class TestCalc(unittest.TestCase):
     self.assertEqual(Calculator.powerof(2, 2), 4)
     self.assertEqual(Calculator.powerof(2, 3), 8)
     self.assertEqual(Calculator.powerof(2, -2), 0.25)
+    self.assertEqual(Calculator.powerof(10, 0), 1)
 
 
 if __name__ == '__main__':

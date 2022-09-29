@@ -26,3 +26,5 @@ class Calculator:
         count = count * 1/x
         y-=1
       return count
+    else:
+      return 1
