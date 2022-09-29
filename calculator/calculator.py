@@ -1,4 +1,4 @@
 class Calculator:
   
   def add(x,y):
-    return 30
+    return x + y
