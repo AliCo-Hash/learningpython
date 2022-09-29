@@ -10,6 +10,8 @@ class Calculator:
     return x * y
 
   def divide(x, y):
+    if y == 0:
+      raise ValueError('Undefined')
     return x / y
 
   def powerof(x, y):
@@ -26,5 +28,5 @@ class Calculator:
         count = count * 1/x
         y-=1
       return count
-    else:
-      return 1
+    return 1
+  
