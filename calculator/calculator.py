@@ -13,4 +13,8 @@ class Calculator:
     return x / y
 
   def powerof(x, y):
-    return x * x
+    count = 1
+    while y > 0:
+      count = count * x
+      y -= 1
+    return count

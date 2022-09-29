@@ -21,6 +21,7 @@ class TestCalc(unittest.TestCase):
 
   def test_powerof(self):
     self.assertEqual(Calculator.powerof(2, 2), 4)
+    self.assertEqual(Calculator.powerof(2, 3), 8)
 
 
 if __name__ == '__main__':
