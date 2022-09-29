@@ -19,6 +19,9 @@ class TestCalc(unittest.TestCase):
     self.assertEqual(Calculator.divide(200, 20), 10)
     self.assertEqual(Calculator.divide(182.25, -20.25), -9)
 
+  def test_powerof(self):
+    self.assertEqual(Calculator.powerof(2, 2), 4)
+
 
 if __name__ == '__main__':
   unittest.main()

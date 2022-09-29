@@ -11,3 +11,6 @@ class Calculator:
 
   def divide(x, y):
     return x / y
+
+  def powerof(x, y):
+    return x * x
